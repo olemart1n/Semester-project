@@ -1,0 +1,7 @@
+nav {
+    display: none;
+}
+
+#checkbox {display: none;}
+
+#checkbox:checked ~ nav {display: flex; flex-direction: column;}
