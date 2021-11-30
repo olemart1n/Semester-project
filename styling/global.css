@@ -12,6 +12,9 @@ html, body {
 body {
     margin: 0px;
     font-family: var(--font-first);
+    background-image: url(/images/background-style_2.jpeg);
+    background-size: cover;
+    opacity: .975;
 }
 
 header {
@@ -20,6 +23,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     background: var(--color-black);
+    max-width: 1700px;
+    margin: auto;
 }
 header h1 {display: none;}
 
@@ -54,6 +59,14 @@ nav a {
 main {
     min-height: 100%;
     background:var(--green-color);
+    max-width: 1700px;
+    margin: auto;
+}
+
+footer {
+    max-width: 1700px;
+    margin: auto;
+    background: white;
 }
 
 footer section {
