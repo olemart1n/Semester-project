@@ -70,6 +70,9 @@ main section div img {max-width: 200px; padding: 0px; margin: 0px; position: abs
 main section div:nth-child(3) {
     flex-shrink: 1;
 }
+
+footer {padding-top: 20px;}
+
 .hours-open {
     background: #F4F4F4;
     width: 95%;
