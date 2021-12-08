@@ -10,39 +10,129 @@ main h2 {
     font-weight: 400;
     padding: 0px;
     margin: 0px;
-    color: var(--black-color);
+    color: var(--blue-color);
 }
 
 main h3 {
     font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 0px;
 }
 
+
 main section {
-    min-height: 300px;
+    min-height: 400px;
     width: 93%;
     border: 1px solid var(--blue-color);
-    background: linear-gradient(-10deg, #1C1A1A 37%, white 41%);
     margin-top: 20px;
     position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 700px;
 }
 
-main section div h5 {
-    font-size: 2em;
-    color: var(--black-color);
-    font-weight: 400;
-    margin: auto;
+main section :last-child {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 0px;
+}
 
+section .info {
+    margin-left: 10px;
+}
+
+
+
+section:nth-child() {
+    margin-left: 10px;
+}
+
+.slider-frame {
+    overflow: hidden;
+}
+
+@-webkit-keyframes slide_animation {
+    0% {left:0%}
+    10% {left:20%}
+    20% {left:50%}
+    30% {left:60%}
+    40% {left:90%}
+    50% {left:100%}
+    60% {left:-50%}
+    70% {left:-20%}
+    80% {left:-10%}
+    90% {left:0%}
+    100% {left:0%}
+}
+
+.slide-images {
+    width: 100%;
+    margin: 0 0 0 0;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 25s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:normal;
+    -webkit-animation-play-state: running;
+}
+
+.img-container {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+main section h5 {
+    font-size: 2em;
+    color: var(--blue-color);
+    font-weight: 400;
+    margin: 0px;
+    text-transform: capitalize;
 }
 
 .fa-arrow-alt-circle-right {
-    font-size: 2em;
-    color: whitesmoke;
+    font-size: 2.5em;
+    color:black;
+    margin: 10px;
 }
 
-main section div img {
-    width: 100px;
-    display: flex;
-    flex: 1 1 auto;
+
+.earth {
+    background-image: url(/images/earth.jpg);
+    display: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.evolution {
+    background-image: url(/images/darwin.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.medisine {
+    background-image: url(/images/medisine-background.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.shaking {
+    background-image: url(/images/shakinghands.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.ecology {
+    background-image: url(/images/ecoogy.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
 }

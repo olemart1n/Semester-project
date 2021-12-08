@@ -1,0 +1,173 @@
+@import url(/styling/global.css);
+
+main {display: flex; flex-direction: column; align-items: center;}
+
+h2 {color: var(--blue-color); font-weight: 400;}
+
+main > section {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+    width: 95%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+main section h4 {
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+main section a {
+    color: var(--blue-color);
+    text-transform: uppercase;
+    align-self: flex-end;
+    padding-right: 20px;
+    font-weight: 400;
+}
+
+.event-info {margin-left: 20px}
+
+img {
+    width: 100%;
+}
+
+label {color: var(--blue-color);
+        font-size: 1.2em;
+        text-transform:capitalize;}
+
+#more-info {display: none;}
+#label-more-info {
+    margin-right: 20px;
+}
+#book {display: none;}
+.sheila-widnall-info {display: none;}
+
+#more-info:checked ~ .sheila-widnall-info {
+    display: block;
+}
+
+.booking-options {
+    width: 100%;
+    min-height: 250px;
+    display: none;
+}
+
+#book:checked ~ .booking-options {
+    display: block;
+}
+
+#order-a {display: none;}
+
+/*---------------------- second event ---------------------*/
+
+#more-info1 {display: none;}
+#label-more-info {
+    margin-right: 20px;
+}
+#book1 {display: none;}
+.night-in-museum {display: none;}
+
+#more-info1:checked ~ .night-in-museum {
+    display: block;
+}
+
+.booking-options1 {
+    width: 100%;
+    min-height: 250px;
+    display: none;
+}
+
+#book1:checked ~ .booking-options1 {
+    display: block;
+}
+
+#order-b {display: none;}
+/*--------------------Third Event ----------------------*/
+
+#more-info2 {display: none;}
+#label-more-info {
+    margin-right: 20px;
+}
+#book2 {display: none;}
+.energetica-info {display: none;}
+
+#more-info2:checked ~ .energetica-info {
+    display: block;
+}
+
+.booking-options2 {
+    width: 100%;
+    min-height: 250px;
+    display: none;
+}
+
+#book2:checked ~ .booking-options2 {
+    display: block;
+}
+
+#order-c {display: none;}
+
+
+/* calendar -------------------------------------------
+-------------------------------------------------------*/
+
+.calendar {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar li {
+    list-style-type: none;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.days {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.sq {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.last {
+    width: 90%;
+}
+
+.square {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.fab {
+    color: var(--blue-color);
+    font-size: 1.7em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

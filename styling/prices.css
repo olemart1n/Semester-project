@@ -1,1 +1,35 @@
 @import url(/styling/global.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {font-weight: 300}
+
+main > section {
+    background: var(--background-variant);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.shop {
+    background: #CBF0E9;
+    text-align: center;
+}
+
+h3 {display: block;}
+
+main section div:nth-child(1) p::first-letter {text-transform: capitalize;}
+main section div:nth-child(1) p {margin: 5px;}
+span {font-weight: 400;}
+section a {
+    color: var(--black-color);
+}
+
+.image {width: 100%}

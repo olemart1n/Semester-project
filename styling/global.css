@@ -4,6 +4,7 @@
     --green-color: #1FC1A2;
     --white-color: #F4F4F4;
     --blue-color: #0585B2;
+    --background-variant: #F7F0F0;
 }
 
 html, body {
@@ -14,6 +15,7 @@ body {
     font-family: var(--font-first);
     opacity: .975;
 }
+
 
 header {
     display: flex;
@@ -100,6 +102,8 @@ footer h6 {
     padding: 20px 20px 10px 20px;
 }
 
+
+
 @media (max-width: 930px) {
     nav {display: none;}
     header label {display: block;}
@@ -117,3 +121,4 @@ footer h6 {
         margin: 5px 0;
     }
 }
+

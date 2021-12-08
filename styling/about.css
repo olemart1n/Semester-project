@@ -1,7 +1,28 @@
-nav {
-    display: none;
+@import url(/styling/global.css);
+
+main section {
+    text-align: center;
+    margin-top: 0px;
 }
 
-#checkbox {display: none;}
+p {
+    font-weight: 300;
+    margin: 0px ;
+}
 
-#checkbox:checked ~ nav {display: flex; flex-direction: column;}
+h5 {
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+section a {
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+}
+
+.about {
+    margin: 20px;
+}
