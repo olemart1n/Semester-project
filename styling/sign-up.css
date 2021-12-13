@@ -1,0 +1,43 @@
+@import url(/styling/global.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 400;
+    color: var(--blue-color);
+    text-transform: capitalize;
+}
+
+section {
+    background: rgb(151, 214, 145);
+    min-height: 250px;
+    width: 80%;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.email {
+    padding: 10px;
+    border: 0px;
+    margin: 0px;
+}
+
+.cta-btn {
+    background: var(--blue-color);
+    text-transform: uppercase;
+    margin-left: -5px;
+}
+
+.cta-btn:hover {
+    color: white;
+    border-radius: 3px;
+}
+
+.e-mail:focus {
+    outline: none;
+}

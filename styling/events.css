@@ -13,12 +13,15 @@ main > section {
     width: 95%;
     margin-bottom: 10px;
     position: relative;
+    max-width: 700px;
 }
 
 
 main section h4 {
     font-weight: 400;
     margin-bottom: 0px;
+    font-size: 1.3em;
+    color: var(--blue-color);
 }
 
 main section a {
@@ -35,6 +38,10 @@ img {
     width: 100%;
 }
 
+.extra-info p, .extra-info h5 {margin: 10px;}
+
+#order-label {align-self:flex-end;}
+
 label {color: var(--blue-color);
         font-size: 1.2em;
         text-transform:capitalize;}
@@ -43,6 +50,7 @@ label {color: var(--blue-color);
 #label-more-info {
     margin-right: 20px;
 }
+#book-label {font-weight: 400;}
 #book {display: none;}
 .sheila-widnall-info {display: none;}
 
@@ -61,6 +69,8 @@ label {color: var(--blue-color);
 }
 
 #order-a {display: none;}
+
+
 
 /*---------------------- second event ---------------------*/
 
@@ -121,6 +131,8 @@ label {color: var(--blue-color);
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 500px;
+    margin: auto;
 }
 
 .calendar li {
@@ -166,8 +178,5 @@ h5 {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    text-align: center;
 }

@@ -57,22 +57,19 @@ section:nth-child() {
 }
 
 @-webkit-keyframes slide_animation {
-    0% {left:0%}
-    10% {left:20%}
-    20% {left:50%}
-    30% {left:60%}
-    40% {left:90%}
-    50% {left:100%}
-    60% {left:-50%}
-    70% {left:-20%}
-    80% {left:-10%}
-    90% {left:0%}
-    100% {left:0%}
+    0% {top:100%}
+    5% {top:90%}
+    10% {top:85%}
+    30% {top:70%}
+    50% {top:50%}
+    80% {top:80%}
+    90% {top:90%}
+    100% {top:0%}
+    0% {top:0%}
 }
 
 .slide-images {
     width: 100%;
-    margin: 0 0 0 0;
     position: relative;
     -webkit-animation-name: slide_animation;
     -webkit-animation-duration: 25s;
@@ -123,7 +120,7 @@ main section h5 {
 }
 
 .shaking {
-    background-image: url(/images/shakinghands.png);
+    background-image: url(/images/shakinghand1.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 200px;

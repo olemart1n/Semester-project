@@ -15,6 +15,7 @@ main h2 {
 
 main h3 {
     font-weight: 400;
+    text-transform: capitalize;
 }
 
 main section {
@@ -24,7 +25,7 @@ main section {
     background: var(--white-color);
     margin-bottom: 10px;
     position: relative;
-    max-width: 600px;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
 }
@@ -88,6 +89,7 @@ footer {padding-top: 20px;}
     margin: auto;
     padding: 10px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .hours-open div p::first-letter {
@@ -98,7 +100,16 @@ footer {padding-top: 20px;}
     margin:auto;
 }
 
+.hours-open div:nth-child(2) p {
+    font-size: 1.4em;
+}
+
 .museum-image {
-    width: 100%;
-    max-width: 500px;
+    background-image: url(/images/museum-outside.png);
+    width: 95%;
+    max-width: 800px;
+    min-height: 450px;
+    max-height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
