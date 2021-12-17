@@ -180,3 +180,23 @@ h5 {
 form {
     text-align: center;
 }
+
+.available {
+    box-shadow: 2px 2px 1px;
+    font-weight: 400;
+}
+
+.available:hover {
+    transform: translateX(2px);
+    transform: translateY(2px);
+}
+
+.red {background: rgb(235, 120, 120);}
+.green {background: rgb(57, 207, 157);
+        }
+
+@media (min-width: 950px) {
+    p {font-size: 1.3em;
+        margin: 5px;
+    }
+}
