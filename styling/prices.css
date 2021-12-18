@@ -10,6 +10,10 @@ h3 {font-weight: 300;
     color: var(--blue-color);
     font-size: 1.3em;
 }
+h4 {font-weight: 300;
+    color: var(--blue-color);
+    font-size: 1.3em;
+}
 
 main > section {
     background: white;
@@ -64,6 +68,90 @@ div {
     color: white;
 }
 
+#buyticket {display: none;}
+#buyticket:checked ~ .booking-options {
+    display: block;
+}
+
+#order-label {color: var(--blue-color);
+    font-size: 1.2em;
+    text-transform:capitalize;}
+#order-a {display: none;}
+
+.calendar {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.calendar li {
+    list-style-type: none;
+}
+.booking-options {
+    width: 100%;
+    min-height: 250px;
+    display: none;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.days {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.sq {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last {
+    width: 90%;
+}
+
+.square {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.fab {
+    color: var(--blue-color);
+    font-size: 1.7em;
+}
+
+form {
+    text-align: center;
+}
+
+.available {
+    box-shadow: 2px 2px 1px;
+    font-weight: 400;
+}
+
+.available:hover {
+    transform: translateX(2px);
+    transform: translateY(2px);
+}
+
+.red {background: rgb(235, 120, 120);}
+.green {background: rgb(57, 207, 157);
+        }
+
 
 @media (min-width: 1100px) {
     main {
@@ -74,8 +162,15 @@ div {
     }
     
     section {
-        min-height: 650px;
+        min-height: 700px;
     }
 
-    main section {box-shadow: 1px 1px 1px 1px var(--blue-color);}
+    h3 {font-weight: 300;
+        color: var(--blue-color);
+        font-size: 1.9em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
 }
