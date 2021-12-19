@@ -65,3 +65,15 @@ h5 {
     margin: 5px;
     text-transform: capitalize;
 }
+
+@media (min-width: 1100px) {
+
+    h3 {font-weight: 300;
+        color: var(--blue-color);
+        font-size: 1.9em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
