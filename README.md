@@ -25,12 +25,6 @@ You can list a the tech stack that you've used over here
 
 ## Visit
 [COMMUNITY SCIENCE MUSEUM](https://infallible-bardeen-b85383.netlify.app/)
-### Running
-
-```bash
-npm run start
-```
-
 
 ## Contact
 
