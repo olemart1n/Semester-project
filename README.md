@@ -19,7 +19,7 @@ Contains:
 
 You can list a the tech stack that you've used over here
 
-- [javasctipt]
+- javasctipt
 
 ## Getting Started
 
