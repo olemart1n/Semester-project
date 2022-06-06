@@ -19,9 +19,9 @@ Contains:
 
 You can list a the tech stack that you've used over here
 
-- javasctipt
-
-## Getting Started
+- javascript
+- css
+- html
 
 ## Visit
 [COMMUNITY SCIENCE MUSEUM](https://infallible-bardeen-b85383.netlify.app/)
